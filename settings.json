@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "JetBrains Mono, FiraCode Nerd Font Mono, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono,Fira Code,MonoLisa",
   "editor.fontLigatures": true,
   "files.autoSave": "onFocusChange",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -9,6 +9,10 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit"
   },
+  // "remote.SSH.remotePlatform": {
+  //   "10.20.90.13": "linux",
+  //   "10.20.90.71": "linux"
+  // },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -24,27 +28,43 @@
   "editor.cursorBlinking": "smooth",
   "diffEditor.codeLens": true,
   "editor.formatOnPaste": true,
+  // "window.titleBarStyle": "custom",
+  // "window.titleBarStyle": "native",
+  // "vscode_vibrancy.theme": "GitHub Dark Default",
+  // "redhat.telemetry.enabled": true,
+  // "vscode_vibrancy.preventFlash": false,
+  // "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
   "debug.console.fontSize": 13,
   "editor.tabSize": 2,
-  "editor.minimap.autohide": "mouseover",
-  "window.zoomLevel": 0,
+"editor.minimap.autohide": "mouseover",
   "editor.cursorStyle": "underline",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "editor.fontSize": 14,
+  // "codeium.enableConfig": {
+  //   "*": false
+  // },
   "workbench.startupEditor": "none",
   "[xml]": {
     "editor.defaultFormatter": "mikeburgh.xml-format"
   },
+
+  /** ------------ Workbench Settings ------------ **/
+ 
   "workbench.editorLargeFileConfirmation": 10024,
   "workbench.editor.showTabs": "single",
   "workbench.tree.indent": 16,
   "workbench.editor.empty.hint": "hidden",
+
+   /** ------------ Breadcrumbs Configurations ------------ **/
   "breadcrumbs.enabled": false,
   "breadcrumbs.symbolPath": "off",
   "breadcrumbs.filePath": "on",
+
+  /** ------------ Editor Settings ------------ **/
   "editor.fontWeight": 450,
+  // "editor.lineHeight": 26,
   "editor.lineNumbers": "on",
   "editor.folding": true,
   "editor.glyphMargin": true,
@@ -52,14 +72,16 @@
   "editor.scrollbar.horizontal": "hidden",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
+  // "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
+
+  /** ------------ Terminal Configurations ------------ **/
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.cursorBlinking": true,
-  "workbench.iconTheme": "vs-seti-folder",
-  "workbench.colorTheme": "Islands Dark",
+  "workbench.colorTheme": "Mayukai Alucard",
   "security.workspace.trust.untrustedFiles": "open",
   "window.menuBarVisibility": "compact",
   "workbench.navigationControl.enabled": false,
@@ -72,8 +94,7 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "chat.mcp.gallery.enabled": true,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-  "custom-ui-style.font.monospace": "IBM Plex Mono",
-  "editor.lineHeight": 1.8,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.iconTheme": "flow-light",
+  "git.confirmSync": false,
+  // "glassit.
 }
